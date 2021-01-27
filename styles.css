@@ -55,6 +55,9 @@ a:hover {
   color: white
 }
 
+#firedesk {
+
+}
 header {
   text-align: center;
   background: url('images/background.jpg') no-repeat top center ;
@@ -70,11 +73,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 4px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
+  border: 10px solid darkblue;
 }
 .tag {
   background-color: #efefef;
@@ -160,6 +164,11 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+
+a.instagram {
+  background-image: url(https://assets.stickpng.com/images/58e9195feb97430e819064f4.png);
+}
+
 a.social:hover {
   opacity: 1;
 }
